@@ -1,0 +1,30 @@
+{
+  "name": "bitacora",
+  "plural": "bitacoras",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "idUsuario": {
+      "type": "number",
+      "required": true
+    },
+    "fecha": {
+      "type": "date"
+    },
+    "suceso": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
